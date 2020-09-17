@@ -1,0 +1,85 @@
+{
+  "class":"go.GraphLinksModel",
+  "nodeCategoryProperty":"type",
+  "linkFromPortIdProperty":"frompid",
+  "nodeDataArray":[
+    {
+      "key":"58a3bb13-3900-45c7-9312-bbc0a07499c8",
+      "type":"2. Yardım"
+    },
+    {
+      "key":"374ed206-8664-4570-b72d-4fe441d35fd6",
+      "type":"5.1 Kart Alma No"
+    },
+    {
+      "key":"6beaf933-fb4c-4619-9f7c-ae4c5b8248f4",
+      "type":"5.2 Kart Alma EXPIRE"
+    },
+    {
+      "key":"b8ec8a60-5e87-42d1-b7e4-079a84778af7",
+      "type":"5.3 Kart Alma CVV"
+    },
+    {
+      "key":"b95828c6-55a6-414f-a4e6-f1b1956d1ce0",
+      "type":"6 . Tahsilat"
+    },
+    {
+      "key":"f3efb89e-f6a8-492b-859b-5f0a1843e460",
+      "type":"7. Tahsilat OK"
+    },
+    {
+      "key":"7001",
+      "type":"QUEUE"
+    }
+  ],
+  "linkDataArray":[
+    {
+      "from":"58a3bb13-3900-45c7-9312-bbc0a07499c8",
+      "to":"374ed206-8664-4570-b72d-4fe441d35fd6",
+      "frompid":"XXXX",
+      "topid":"0"
+    },
+    {
+      "from":"374ed206-8664-4570-b72d-4fe441d35fd6",
+      "to":"6beaf933-fb4c-4619-9f7c-ae4c5b8248f4",
+      "frompid":"XXXXXXXXXXXXXXXX",
+      "topid":"0"
+    },
+    {
+      "from":"6beaf933-fb4c-4619-9f7c-ae4c5b8248f4",
+      "to":"b8ec8a60-5e87-42d1-b7e4-079a84778af7",
+      "frompid":"XXXX",
+      "topid":"0"
+    },
+    {
+      "from":"b8ec8a60-5e87-42d1-b7e4-079a84778af7",
+      "to":"b95828c6-55a6-414f-a4e6-f1b1956d1ce0",
+      "frompid":"XXX",
+      "topid":"0"
+    },
+    {
+      "from":"b95828c6-55a6-414f-a4e6-f1b1956d1ce0",
+      "to":"f3efb89e-f6a8-492b-859b-5f0a1843e460",
+      "frompid":"1",
+      "topid":"0"
+    },
+    {
+      "from":"b95828c6-55a6-414f-a4e6-f1b1956d1ce0",
+      "to":"7001",
+      "frompid":"2",
+      "topid":"0"
+    },
+    {
+      "from":"58a3bb13-3900-45c7-9312-bbc0a07499c8",
+      "to":"374ed206-8664-4570-b72d-4fe441d35fd6",
+      "frompid":"XXX",
+      "topid":"0"
+    },
+    {
+      "from":"58a3bb13-3900-45c7-9312-bbc0a07499c8",
+      "to":"374ed206-8664-4570-b72d-4fe441d35fd6",
+      "frompid":"XX",
+      "topid":"0"
+    }
+  ]
+}

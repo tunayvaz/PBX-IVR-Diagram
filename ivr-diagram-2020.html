@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>IVR</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="gojs.js"></script>
+  <script src="ivr-diagram-2020.js"></script>
+  <script src="DataInspector.js"></script>
+  <script src="xlsx.full.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="dataInspector.css">
+</head>
+
+<body onload="drawDiagram()">
+  <div id="ivrDiagramDiv" style="border: solid 1px black; width: 77%; left: 0px; right: 0px; height:900px;float:left">
+  </div>
+  <div>
+    <div>
+      <button id="dataModal" type="button" data-toggle="modal" data-target="#myModal">
+        <img src="img/add_button.png" alt="" height="50">
+        <div>Add Node</div>
+      </button>
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-sm modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Define Node</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              Node Name: <input type="text" id="newNodeName"><br>
+              Number of Ports: <input type="text" name="" id="numberOfPorts">
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" type="button" id="saveData">Add</button>
+              <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="removepanel">
+        <img src="img/remove_button.png" alt="" height="50">
+        <div>Delete Object</div>
+      </button>
+      <button id="savepanel">
+        <img src="img/save_button.png" height="50">
+        <div>Save Diagram</div>
+      </button>
+      <button id="refreshpanel">
+        <img src="img/refresh_button.png" alt="" height="50">
+        <div>Refresh </div>
+      </button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <div id="ivrInspectorDiv" class="inspector" style="width: 23%;"> </div>
+  </div>
+</body>
+
+</html>
