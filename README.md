@@ -1,4 +1,4 @@
-# PBX-IVR-Diagram
+# PBX IVR Diagram
 An IVR diagram for telecommunication companies created with GoJS allowing interactive changes such as adding, deleting or editing IVR's.
 
 *Interactively addable with given port name and number and deletable IVR's as graph nodes.
