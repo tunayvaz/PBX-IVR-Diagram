@@ -9,4 +9,4 @@ An IVR diagram for telecommunication companies created with GoJS allowing intera
 
 *All changes on the diagram will be applied at the PBX with a provided web service.
 
-Note that this code needs 2 JSON files (jsonNodes, jsonTemplates) in a specific format to draw the diagram and an XLSX file (XLSXdata) to show the selected IVR's every data on the Inspector. Source code can be easily edited by the user in order to work with other JSON formats. XLSX file is not available in this repository due to privacy policy.
+Note that this code needs 2 JSON files (jsonNodes, jsonTemplates) in a specific format to draw the diagram and an XLSX file (XLSXdata) to show the selected IVR's every data on the Inspector. Source code can be easily edited by the user in order to work with other JSON formats.
